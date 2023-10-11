@@ -1,0 +1,116 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to right top,
+    #f67035,
+    #dd7f0f,
+    #c08c00,
+    #9f9700,
+    #7a9e00,
+    #77a704,
+    #73af0c,
+    #6eb815,
+    #96c524,
+    #bad136,
+    #ddde4a,
+    #ffea5f
+  );
+  color: #d6e4c4;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  color: #a13c11;
+}
+
+#family {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#family li {
+  color: #000;
+}
+
+#super {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#super li {
+  color: #000;
+}
+
+#food {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#activity li {
+    color: #323232
+}
+
+.dad {
+  background-color: #6eb815;
+}
+
+.mom {
+  background-color: #c08c00;
+}
+
+.son {
+  background-color: #96c524;
+}
+
+.daughter {
+  background-color: #ffea5f;
+}
+
+h2 {
+  color: #f67035;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid;
+}
+
+table th {
+  width: 120px;
+}
+
+table td {
+  height: 40px;
+}
+
+li {
+  color: #e6d092;
+}
